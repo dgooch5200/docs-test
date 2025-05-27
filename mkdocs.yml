@@ -2,3 +2,6 @@ site_name: Connect FX Documentation
 site_url: https://sitename.example
 theme:
   name: material
+extra:
+  generator: false
+copyright: "© 2025 Your Chauvet Lighting"
