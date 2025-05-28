@@ -34,6 +34,20 @@ specific byte and block addresses.
 - Block and Byte addresses are relative to the start of the current record, with the first byte of the record being
 byte address 0x0000 and block address 0x0000.
 
+
+<!-- In your markdown file -->
+<model-viewer
+src="assets/Test.glb"
+alt="3D model"
+auto-rotate
+camera-controls
+shadow-intensity="1"
+environment-image="neutral"
+style="width: 100%; height: 400px;">
+</model-viewer>
+
+
+
 ### 3. Versioning
 - **Record Versions**: When a record's structure is updated, a new version file will be created (e.g., `fixt002.md` 
 after `fixt001.md`).

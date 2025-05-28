@@ -57,5 +57,17 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js
+  - https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/loaders/GLTFLoader.js
+  - https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/controls/OrbitControls.js
+  - javascripts/three-model-viewer.js
+  - javascripts/model-viewer.js
+
+extra_css:
+  - stylesheets/extra.css
+
+
+
 copyright: "© 2025 Chauvet Lighting"
 
