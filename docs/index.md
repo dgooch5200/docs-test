@@ -54,11 +54,15 @@ If you need to contribute or propose changes to this standard:
 - Notify the CHAUVET Product Application Development Team of your intentions.
 - All changes should be proposed and reviewed before being implemented.
 
+### Firmware 
+[Firmware :material-arrow-right:](firmware/README.md){ .md-button  }
+
 ??? tip "This is just a test ----- Notes:"
 
     This is just a test!!!! 
 
-
+### something 
+hrerjelk j
 
 ``` mermaid
 graph LR
