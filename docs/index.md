@@ -35,7 +35,7 @@ specific byte and block addresses.
 byte address 0x0000 and block address 0x0000.
 
 
-<!-- In your markdown file -->
+### 2.5 Model 1
 <model-viewer
 src="assets/Test.glb"
 alt="3D model"
@@ -73,16 +73,18 @@ If you need to contribute or propose changes to this standard:
 - Notify the CHAUVET Product Application Development Team of your intentions.
 - All changes should be proposed and reviewed before being implemented.
 
-### Firmware 
+### 6. Firmware 
 [Firmware :material-arrow-right:](firmware/README.md){ .md-button  }
 
 ??? tip "This is just a test ----- Notes:"
 
     This is just a test!!!! 
 
-### something 
+### 7. Something 
 hrerjelk j
 
+
+### 8. Code Block
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
@@ -92,7 +94,7 @@ graph LR
   B ---->|No| E[Yay!];
 ```
 
-
+### 9. How to Video
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 1em 0;">
   <iframe src="https://www.youtube.com/embed/5f5tjylCbj0?si=B7g6NDW-VhD5Z3qt" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
@@ -100,3 +102,15 @@ graph LR
           allowfullscreen>
   </iframe>
 </div>
+
+
+### 10. Model 2
+<model-viewer
+src="assets/Test.glb"
+alt="3D model"
+auto-rotate
+camera-controls
+shadow-intensity="1"
+environment-image="neutral"
+style="width: 100%; height: 400px;">
+</model-viewer>
