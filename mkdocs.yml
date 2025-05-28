@@ -23,11 +23,16 @@ theme:
   features:
     - content.code.copy
 
+plugins:
+  - search
+  - glightbox
+
 extra:
   generator: false
 
 markdown_extensions:
   - attr_list
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -44,7 +49,11 @@ markdown_extensions:
       restrict_base_path: false
       check_paths: true
       dedent_subsections: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
   - pymdownx.details
 

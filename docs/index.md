@@ -1,5 +1,7 @@
 # CHAUVET NDEF Record Standards
 
+![Alt text](assets/WELL CONNECT-FRONT.png "Image title"){ width="300" align=left }
+
 ## Overview
 This repository contains the documentation and structure definitions for the various NDEF records used in CHAUVET 
 products. Each Chauvet product that implements the NFC NDEF standard will include an indication of which specification 
@@ -52,5 +54,15 @@ If you need to contribute or propose changes to this standard:
 - Notify the CHAUVET Product Application Development Team of your intentions.
 - All changes should be proposed and reviewed before being implemented.
 
+??? tip "This is just a test ----- Notes:"
 
+    This is just a test!!!! 
 
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
