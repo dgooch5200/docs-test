@@ -1,4 +1,9 @@
-# CHAUVET NDEF Record Standards   djfhdskjhsf df
+# CHAUVET NDEF Record Standards
+
+!!! warning
+
+    You must update to the latest firmware to fix issue!
+    Please use the UPLOAD02 or USB-C to update 
 
 ![Alt text](assets/WELL CONNECT-FRONT.png "Image title"){ width="300" align=left }
 
