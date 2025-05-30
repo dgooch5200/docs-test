@@ -5,8 +5,6 @@
     You must update to the latest firmware to fix issue!
     Please use the UPLOAD02 or USB-C to update 
 
-![Alt text](assets/WELL CONNECT-FRONT.png "Image title"){ width="300" align=left }
-
 ## Overview
 This repository contains the documentation and structure definitions for the various NDEF records used in CHAUVET 
 products. Each Chauvet product that implements the NFC NDEF standard will include an indication of which specification 
