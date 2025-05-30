@@ -1,7 +1,4 @@
-# CHAUVET NDEF Record Standards
-
-
-{{Head}}
+# Fixture 1 Docs 
 
 !!! warning
 
