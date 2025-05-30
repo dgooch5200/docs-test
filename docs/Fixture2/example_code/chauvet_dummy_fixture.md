@@ -9,11 +9,11 @@
 ## Main .C sample code 
 
 ```c++ title="chauvet_dummy_fixture.c" linenums="1"
---8<-- "docs/example_code/chauvet_dummy_fixture.c"
+--8<-- "docs/Fixture2/example_code/chauvet_dummy_fixture.c"
 ```
 
 ## Main .H sample code
 
 ```c++ title="chauvet_dummy_fixture.c" linenums="1"
---8<-- "docs/example_code/chauvet_dummy_fixture.h"
+--8<-- "docs/Fixture2/example_code/chauvet_dummy_fixture.h"
 ```
