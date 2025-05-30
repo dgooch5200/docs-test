@@ -8,11 +8,11 @@
 ## Main .C sample code
 
 ```c++ title="chauvet_nfc_demo.c" linenums="1"
---8<-- "docs/fixture2/example_code/chauvet_nfc_demo.c"
+--8<-- "docs/Fixture2/example_code/chauvet_nfc_demo.c"
 ```
 
 ## Main .H sample code
 
 ```c++ title="chauvet_nfc_demo.h" linenums="1"
---8<-- "docs/fixture2/example_code/chauvet_nfc_demo.h"
+--8<-- "docs/Fixture2/example_code/chauvet_nfc_demo.h"
 ```
