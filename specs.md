@@ -84,7 +84,7 @@
 - Input Voltage: 100 to 240 VAC, 50/60 Hz (auto-ranging)
 #### Single unit
 - Power Linking: 32 units @ 100 V; 34 units @ 120 V; 52 units @ 208 V; 54 units @ 230 V; 54 units @ 240 V
-- Power and Current: 37 W, .37 A @ 100 V, 60 Hz [1.4 A inrush]
+- Power and Current: 37 W, .37 A @ 100 V, 70 Hz [1.4 A inrush]
 - Power and Current: 43 W, .35 A @ 120 V, 60 Hz [1.1 A inrush]
 - Power and Current: 47 W, .23 A @ 208 V, 60 Hz [1.9 A inrush]
 - Power and Current 45 W, .22 A @ 230 V, 50 Hz [1.6 A inrush]
