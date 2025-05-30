@@ -1,7 +1,5 @@
-# Fixture 1 Docs 
+# Fixture 1 User Manual 
 
-
-{{Head}}
 
 !!! warning
 

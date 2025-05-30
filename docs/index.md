@@ -1,25 +1,11 @@
-# CHAUVET NDEF Record Standards
+# CHAUVET Pro Documentation
 
-!!! warning
-
-    You must update to the latest firmware to fix issue!
-    Please use the UPLOAD02 or USB-C to update 
-
-![Alt text](assets/WELL CONNECT-FRONT.png "Image title"){ width="300" align=left }
 
 ## Overview
 This repository contains the documentation and structure definitions for the various NDEF records used in CHAUVET 
 products. Each Chauvet product that implements the NFC NDEF standard will include an indication of which specification 
 and version is being used. Each of the NDEF records is versioned and documented in separate files, with a master 
 NDEF_Specification document tracking the overall NDEF message structure across versions.
-
-## Contents
-- `README.md`: This file, providing an overview and instructions on how to use the standards documentation.
-- `conf001.md`, `fixt001.md`, `logg001.md`, etc.: Individual record documentation files, detailing the structure of each 
-- record type.
-- `NDEF_Structure_Type_1.md`: The master document tracking the NDEF message structure and version history [Type 1].
-
-## How to Use This Documentation
 
 ### 1. Understanding the NDEF Message
 To get started, review the `NDEF_Structure_Type_1.md` file. This document provides a version-by-version breakdown 
@@ -34,20 +20,7 @@ specific byte and block addresses.
 - Block and Byte addresses are relative to the start of the current record, with the first byte of the record being
 byte address 0x0000 and block address 0x0000.
 
-
-### 2.5 Model 1
-<model-viewer
-src="assets/Test.glb"
-alt="3D model"
-auto-rotate
-camera-controls
-shadow-intensity="1"
-environment-image="neutral"
-style="width: 100%; height: 400px;">
-</model-viewer>
-
-
-
+  
 ### 3. Versioning
 - **Record Versions**: When a record's structure is updated, a new version file will be created (e.g., `fixt002.md` 
 after `fixt001.md`).
@@ -72,16 +45,6 @@ NDEF records.
 If you need to contribute or propose changes to this standard:
 - Notify the CHAUVET Product Application Development Team of your intentions.
 - All changes should be proposed and reviewed before being implemented.
-
-### 6. Firmware 
-[Firmware :material-arrow-right:](firmware/README.md){ .md-button  }
-
-??? tip "This is just a test ----- Notes:"
-
-    This is just a test!!!! 
-
-### 7. Something 
-hrerjelk j
 
 
 ### 8. Code Block

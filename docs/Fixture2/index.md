@@ -1,4 +1,4 @@
-# Fixture 1 Docs 
+# Fixture 2 User Manual
 
 !!! warning
 
