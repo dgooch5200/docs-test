@@ -3,6 +3,7 @@ site_url: http://www.Chauvetlighting.com
 
 theme:
   name: material
+  custom_dir: overrides  # Keep this for future customizations
   palette:
     # Dark Mode
     - scheme: slate
@@ -23,9 +24,17 @@ theme:
   features:
     - content.code.copy
 
+  icon:
+    admonition:
+      Useful_Information: material/file-edit
+      success: material/menu
+
 plugins:
   - search
   - glightbox
+  - mermaid2
+  - table-reader:
+      data_path: "docs/products"
 
 extra:
   generator: false
@@ -59,18 +68,28 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
   - pymdownx.details
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js
   - https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/loaders/GLTFLoader.js
   - https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/controls/OrbitControls.js
+  - https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js
   - javascripts/three-model-viewer.js
   - javascripts/model-viewer.js
+  - javascripts/pdf-export.js
+  - https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js # Add this
+
 
 extra_css:
   - stylesheets/extra.css
 
-
-
 copyright: "© 2025 Chauvet Lighting"
-
