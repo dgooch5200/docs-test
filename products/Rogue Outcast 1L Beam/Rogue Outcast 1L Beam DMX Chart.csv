@@ -1,0 +1,111 @@
+﻿"Outcast 1L Beam-DMX chart
+Advanced: 19CH  Basic：17CH",,,,
+,,,,
+Mode/Channel,,Channel,DMX,Function
+Advanced,Basic,,,
+1,1,pan,0-255,0-540°
+2,2,pan 16bit,0-255,16bit
+3,3,tilt,0-255,0-270°
+4,4,tilt 16bit,0-255,16bit
+5,5,pan/tilt speed,0-255,from fast to slow
+6,6,dimmer,0-255,0-100%
+7,,dimmer 16bit,0-255,0-100%
+8,7,strobe,0-3,no function
+,,,4-7,on
+,,,8-76,"syncronized strobe, slow to fast"
+,,,77-145,"pulse strobe, slow to fast"
+,,,146-215,"random strobe, slow to fast"
+,,,216-255,on
+9,8,color wheel,0-3,white
+,,,4-7,color 1
+,,,8-11,color 2
+,,,12-15,color 3
+,,,16-19,color 4
+,,,20-23,color 5
+,,,24-27,color 6
+,,,28-31,color 7
+,,,32-35,color 8
+,,,36-39,color 9
+,,,40-43,color 10
+,,,44-47,color 11
+,,,48-51,color 12
+,,,52-55,color 13
+,,,56-59,color 14
+,,,60-187,split color
+,,,188-219,"color scroll, slow to fast"
+,,,220-223,stop
+,,,224-255,"reverse color scroll, slow to fast"
+10,9,rotating gobo wheel,0-3,open
+,,,4-7,gobo 1
+,,,8-11,gobo 2
+,,,12-15,gobo 3
+,,,16-19,gobo 4
+,,,20-23,gobo 5
+,,,24-27,gobo 6
+,,,28-31,gobo 7
+,,,32-35,gobo 8
+,,,36-39,gobo 9
+,,,40-43,gobo 10
+,,,44-47,gobo 11
+,,,48-51,gobo 12
+,,,52-55,gobo 13
+,,,56-63,gobo 14
+,,,64-71,"gobo 14 shaking, slow to fast"
+,,,72-75,"gobo 13 shaking, slow to fast"
+,,,76-79,"gobo 12 shaking, slow to fast"
+,,,80-83,"gobo 11 shaking, slow to fast"
+,,,84-87,"gobo 10 shaking, slow to fast"
+,,,88-91,"gobo 9 shaking, slow to fast"
+,,,92-95,"gobo 8 shaking, slow to fast"
+,,,96-99,"gobo 7 shaking, slow to fast"
+,,,100-103,"gobo 6 shaking, slow to fast"
+,,,104-107,"gobo 5 shaking, slow to fast"
+,,,108-111,"gobo 4 shaking, slow to fast"
+,,,112-115,"gobo 3 shaking, slow to fast"
+,,,116-119,"gobo 2 shaking, slow to fast"
+,,,120-123,"gobo 1 shaking, slow to fast"
+,,,124-127,open
+,,,128-131,open
+,,,128-191,"color scroll, fast to slow"
+,,,192-255,"reverse color scroll, slow to fast"
+11,10,gobo rotating,0-63,gobo index (0 no index)
+,,,64-145,"gobo rotating, fast to slow"
+,,,146-149,stop
+,,,150-231,"reverse gobo rotating, slow to fast"
+,,,232-255,gobo rotate back and forth
+12,11,prism 1,0-4,off
+,,,5-255,prism
+13,12,prism 1 rotating,0-127,prism index
+,,,128-189,"prism rotating, fast to slow"
+,,,190-193,stop
+,,,194-255,"reverse prism rotating, slow to fast"
+14,13,prism 2,0-4,off
+,,,5-255,prism
+15,14,prism 2 rotating,0-127,prism index
+,,,128-189,"prism rotating, fast to slow"
+,,,190-193,stop
+,,,194-255,"reverse prism rotating, slow to fast"
+16,15,focus,0-255,far to near
+17,,focus 16bit,0-255,16 bit
+18,16,frost,0-255,frost effect
+19,17,Control,0-7,no function
+,,,8-15,pan/tilt blackout
+,,,16-23,color blackout
+,,,24-31,gobo blackout
+,,,32-39,pan/tilt/color blackout
+,,,40-47,pan/tilt/gobo blackout
+,,,48-55,pan/tilt/gobo/color blackout
+,,,56-87,no function
+,,,88-95,no function
+,,,96-103,pan reset
+,,,104-111,tilt reset
+,,,112-119,color reset
+,,,120-127,gobo reset
+,,,128-135,no function
+,,,136-143,prism reset
+,,,144-151,focus reset
+,,,152-159,all reset
+,,,160-167,no function
+,,,168-231,frost reset
+,,,232-239,no function
+,,,240-255,no function
