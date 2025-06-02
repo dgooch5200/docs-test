@@ -3,6 +3,7 @@ site_url: http://www.Chauvetlighting.com
 
 theme:
   name: material
+  language: en
   palette:
     # Dark Mode
     - scheme: slate
@@ -26,6 +27,19 @@ theme:
 plugins:
   - search
   - glightbox
+  - i18n:
+      docs_structure: suffix      # or "folder" if you prefer folder-based translations
+      languages:
+        - locale: en             # English
+          default: true          # this one will be served at "/"
+          name: English
+          build: true
+        - locale: fr             # French
+          name: Français
+          build: true
+        - locale: de             # German
+          name: Deutsch
+          build: true
 
 extra:
   generator: false
