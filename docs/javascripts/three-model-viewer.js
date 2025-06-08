@@ -6,21 +6,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Make sure GLTFLoader is available
-    if (typeof THREE.GLTFLoader === 'undefined') {
-        // Try to access it through the newer module pattern
-        console.log('Attempting to load GLTFLoader through alternative method...');
+    if (typeof THREE.GLTFLoader === 'undefined' || typeof THREE.OrbitControls === 'undefined') {
+        // Attempt to load missing dependencies dynamically
+        console.log('Loading Three.js dependencies for model viewer…');
 
-        // Load GLTFLoader script dynamically if not already loaded
-        const gltfLoaderScript = document.createElement('script');
-        gltfLoaderScript.src = 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/loaders/GLTFLoader.js';
-        gltfLoaderScript.onload = initModelViewers;
-        document.head.appendChild(gltfLoaderScript);
+        const scripts = [];
+        if (typeof THREE.GLTFLoader === 'undefined') {
+            const gltfLoaderScript = document.createElement('script');
+            gltfLoaderScript.src = 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/loaders/GLTFLoader.js';
+            scripts.push(new Promise(res => { gltfLoaderScript.onload = res; document.head.appendChild(gltfLoaderScript); }));
+        }
 
-        // Load OrbitControls script dynamically if not already loaded
-        const orbitControlsScript = document.createElement('script');
-        orbitControlsScript.src = 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/controls/OrbitControls.js';
-        document.head.appendChild(orbitControlsScript);
+        if (typeof THREE.OrbitControls === 'undefined') {
+            const orbitControlsScript = document.createElement('script');
+            orbitControlsScript.src = 'https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/controls/OrbitControls.js';
+            scripts.push(new Promise(res => { orbitControlsScript.onload = res; document.head.appendChild(orbitControlsScript); }));
+        }
 
+        Promise.all(scripts).then(initModelViewers);
         return;
     }
 
