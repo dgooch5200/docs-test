@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-material
+mkdocs-glightbox
+mkdocs-mermaid2-plugin
+mkdocs-table-reader-plugin
+mkdocs-print-site-plugin
+openpyxl
